@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         stepNotifications = true,
         plugin = {
                 "pretty",
-                "html:report/automation-report.html"
+                "html:report/automation-report.html",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         glue = {
                 "inadigital.steps_definition", // Specify the package for step definitions
