@@ -1,0 +1,38 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven files
+target/
+
+# Allure report files
+allure-report/
+report/
+apk/
+
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+*.log
+
+
+# IntelliJ files
+*.ipr
+*.iws
+*.idea/
+*.gradle
+
+# Logs
+*.log
+
+# Other
+*.user
+*.swp
+*.env
+*.iml
